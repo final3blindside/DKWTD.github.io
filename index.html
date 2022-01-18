@@ -57,6 +57,8 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
     }
+    /* Selectors above are for uniform purposes only */
+
 
     #Welcome{
         background-image: url("y-so-serious.png");
@@ -66,9 +68,10 @@
         padding: 20px;
         margin: 50px 100px 50px 100px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        float: left;
-        width: 20%;
+        
+        
     }
+
 
     #thoughts{
         background-image: url("crossline-dots.png");
@@ -79,8 +82,7 @@
         margin: 50px 100px 50px 100px;
         color: #FF6A3D;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        float: right;
-        width: 20%;
+       
        
 
     }
@@ -94,8 +96,7 @@
         margin: 50px 100px 50px 100px;
         color:#1A2238;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        float:none;
-        width: 20%;
+       
         
 
     }
@@ -111,6 +112,11 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
        
     }
+
+    table.content-box {
+        margin-left: auto;
+        margin-right: auto;
+        }
     
 </style>
 
@@ -121,14 +127,16 @@
 
     <hr>
 
-    <div class="content" id="Welcome">
-        Welcome to the <u>Journal Pump</u>.
-        <br>
-        A place aimed to help you finish your journals and other personal stories fast, and on-time.
+    <div id="Welcome">
+        <p class="content">
+            Welcome to the <u>Journal Pump</u>.
+            <br>
+            A place aimed to help you finish your journals and other personal stories fast, and on-time.
+        </p>
     </div>
 
     <div class="content" id="thoughts">
-        Ever experienced writing down your thoughts but was under time-pressure, in a rush, or just had to do some other thing? 
+            Ever experienced writing down your thoughts but was under time-pressure, in a rush, or just had to do some other thing? 
     </div>
 
     <div class="content" id="maths">
@@ -139,7 +147,20 @@
         Or you had a great work, but felt like you needed a supplementary piece of work or string of words to make your work well-rounded? <em> We got you! </em>
     </div>
 
-
+    <table class="content content-box">
+        <tr>
+          <th>Links</th>
+          <th>Organizations</th>
+        </tr>
+        <tr>
+          <td>google.com</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
 </body>
 
 </html>
