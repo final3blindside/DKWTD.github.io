@@ -7,18 +7,17 @@
     <title>Journal Pump</title>
 </head>
 
-<!--This file was last opened on December 23, 2021. Remember, this is a site for blogs helping students, a community to go to when you need help in your homework, project, or just looking for ideas to put in your work. This is also a way for you to connect with alumni or older batches to know whats coming up on your time. -->
+        <!--This file was last opened on January 21, 2021. Remember, this is a site for blogs helping students, a community to go to when you need help in your homework, project, or just looking for ideas to put in your work. This is also a way for you to connect with alumni or older batches to know whats coming up on your time. -->
 
-<!--
-    Color Palette: #1A2238, #9DAAF2, #FF6A3D, #F4DB7D
--->
 <style>
+    
+    /* The following Selectors are for uniform purposes. They are the basic format for every other "The Journal Pump" webpage -Yuan, 1/21/2022 */
 
     @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Coda+Caption:wght@800&family=Epilogue:wght@900&family=Playfair+Display:wght@900&family=Spectral:wght@600&display=swap');
     
 
     body {
-        background-image: url("vintage-wallpaper.png");
+        background-image: url("0homepage.png");
     }
 
     .main-title{
@@ -57,24 +56,24 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
     }
-    /* Selectors above are for uniform purposes only */
+
+
+    /* The following selectors are possibly made for homepage (Set to change) */
 
 
     #Welcome{
-        background-image: url("y-so-serious.png");
+        background-image: url("0welcome.png");
         border-style: solid;
         border-color: #9DAAF2;
         border-width: 10px;
         padding: 20px;
         margin: 50px 100px 50px 100px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        
-        
     }
 
 
     #thoughts{
-        background-image: url("crossline-dots.png");
+        background-image: url("0rushwrite.png");
         border-style: solid;
         border-color: #9DAAF2;
         border-width: 10px;
@@ -82,13 +81,10 @@
         margin: 50px 100px 50px 100px;
         color: #FF6A3D;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-       
-       
-
     }
 
     #maths{
-        background-image: url("more-leaves-on-green.png");
+        background-image: url("0math.png");
         border-style: solid;
         border-color: #9DAAF2;
         border-width: 10px;
@@ -96,13 +92,10 @@
         margin: 50px 100px 50px 100px;
         color:#1A2238;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-       
-        
-
     }
 
     #great-work{
-        background-image: url("dark-paths.png");
+        background-image: url("0greatwork.png");
         border-style: solid;
         border-color: #9DAAF2;
         border-width: 10px;
@@ -122,6 +115,28 @@
          background-color: #ddd;
          color: black;
     }
+
+    a {
+        color: #0060B6;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color:#00A0C6; 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
+
+    a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+
+    }
+
+    table {
+        width: 85%;
+        
+    }
  
 
 </style>
@@ -132,12 +147,14 @@
     </div>
 
     <hr>
-
-    <div class="topnav">
-        <a href="blogs.html">Blogs</a>
-        <a href="registration-page.html">Register!</a>
-        <a href="connect.html">Connect</a>
-    </div>
+    <table  class="topnav content content-box " >
+        <tr>
+            <th><a href="blogs.html">Blogs</a></th>
+            <th><a href="connect.html">Connect</a></th>
+            <th><a href="registration-page.html">Log In</a></th>
+            <th><a href="registration-page.html ">Register</a></th>  
+       </tr>	 
+    </table> 
 
     <div id="Welcome">
         <p class="content">
@@ -147,9 +164,12 @@
         </p>
     </div>
 
+    <a href="rush-write.html">
     <div class="content" id="thoughts">
             Ever experienced writing down your thoughts but was under time-pressure, in a rush, or just had to do some other thing? 
     </div>
+    </a>
+    
 
     <div class="content" id="maths">
         Did you suddenly need some wordy work in your Mathematics, Algebra, or Calculus class?
@@ -157,15 +177,6 @@
 
     <div class="content" id="great-work">
         Or you had a great work, but felt like you needed a supplementary piece of work or string of words to make your work well-rounded? <em> We got you! </em>
-    </div>
-
-    
-
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="blogs.html">Blogs</a>
-        <a href="registration-page.html">Register!</a>
-        <a href="connect.html">Connect</a>
     </div>
 
 </body>
