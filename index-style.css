@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Coda+Caption:wght@800&family=Epilogue:wght@900&family=Playfair+Display:wght@900&family=Spectral:wght@600&display=swap');
+    
+
+body {
+    background-image: url("0homepage.png");
+}
+
+.main-title{
+    color: #FF6A3D;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.header-box {
+    background-color: #1A2238 ;
+    border-style: double;
+    border-color:  #9DAAF2 ;
+    border-width: 40px;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: auto;
+    height: auto;
+}
+
+.content{
+    color: #F4DB7D;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: #1A2238;
+    border-style: solid;
+    border-color: #9DAAF2;
+    border-width: 10px;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+a:visited{
+    color:none;
+}
+
+
+
