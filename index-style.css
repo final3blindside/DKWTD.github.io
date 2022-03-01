@@ -55,6 +55,28 @@ figure{
     border:#FF6A3D;
     border-width: 20px;
     border-style: outset;
+    padding:0%;
+}
+
+footer{
+    background-color: #1A2238;
+}
+
+#side-footer{
+    float:left;
+    width:30%;
+    background-color:#1A2238;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    float:left;
+    width:70%;
+    padding:15px;
+    box-sizing: border-box;
+
 }
 
 /* February 28, 2022*/
