@@ -51,12 +51,7 @@ a:visited{
     width:20%;
 }
 
-figure{
-    border:#FF6A3D;
-    border-width: 20px;
-    border-style: outset;
-    padding:0%;
-}
+
 
 footer{
     background-color: #1A2238;
@@ -65,8 +60,6 @@ footer{
 #side-footer{
     float:left;
     width:30%;
-    background-color:#1A2238;
-    color:#fff;
     padding:15px;
     box-sizing: border-box;
 }
