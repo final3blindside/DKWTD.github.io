@@ -51,5 +51,11 @@ a:visited{
     width:20%;
 }
 
+figure{
+    border:#FF6A3D;
+    border-width: 20px;
+    border-style: outset;
+}
+
 /* February 28, 2022*/
 
