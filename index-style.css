@@ -40,9 +40,7 @@ body {
 
 
 
-a:visited{
-    color:none;
-}
+
 
 .center{
     display: block;
@@ -69,6 +67,18 @@ a:visited{
     box-sizing: border-box;
    
 
+}
+
+a:active{
+    color:cyan;
+}
+
+a:visited{
+    color:cyan;
+}
+
+a:hover{
+    color:darkorange;
 }
 
 /* March 1, 2022* 23:13/
