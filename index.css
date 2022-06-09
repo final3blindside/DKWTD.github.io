@@ -113,5 +113,10 @@ a:hover{
     text-decoration: none;
 }
 
-/* March 1, 2022* 23:13/
+/* March 1, 2022* 23:13*/
+
+.logo{
+    width: 125px;
+    height: 125px;
+}
 
