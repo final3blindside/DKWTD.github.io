@@ -2,7 +2,7 @@
     
 
 body {
-    background-image: url("0homepage.png");
+    background-image: url("pics/0homepage.png");
 }
 
 .main-title{
@@ -17,7 +17,7 @@ body {
     font-family: 'Epilogue', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color: white;
+    background-color: #FF6A3D;
     border-style: solid;
     border-color:#9DAAF2;
     border-width: 5px;
