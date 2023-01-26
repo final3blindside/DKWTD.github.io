@@ -1,28 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Coda+Caption:wght@800&family=Epilogue:wght@900&family=Playfair+Display:wght@900&family=Spectral:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+/* Available fonts:
+-Logo and Website Headers-
+Overpass: 
+
+-Page headers and section titles-
+Old Standard TT: 
+Libre Baskerville:
+IM Fell French Canon: 
+
+-Body text-
+Rubik:
+*/
     
 
 body {
-    background-image: url("pics/0homepage.png");
+    background-image:url("pics/0homepage.png");
 }
 
 .main-title{
     color: #FF6A3D;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 100px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: normal;
     text-align: center;
+
+    background-image: url("pics/0welcome.png");
+}
+
+.header-box {
+    background-color: #1A2238 ;
+    border-style: solid;
+    border-color:  #9DAAF2 ;
+    border-width: 10px;
+    padding: 10px;
+    margin: 0px 100px 50px 100px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: auto;
+    height: auto;
 }
 
 .navbar-box{
     color: black;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 20px;
+    font-family: 'Baskerville', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
     text-align: center;
-    background-color: #FF6A3D;
+  
+    background-color: #1A2238;
     border-style: solid;
     border-color:#9DAAF2;
     border-width: 5px;
     padding: 20px;
-    margin: 50px 100px 50px 100px;
+    margin: 25px 100px 25px 100px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -37,26 +69,39 @@ body {
     display: inline;
 }
 
-.nav a{
+.navbar a:link{
     display:inline-block;
     padding:10px;
-}
-.header-box {
-    background-color: #1A2238 ;
-    border-style: solid;
-    border-color:  #9DAAF2 ;
-    border-width: 20px;
-    padding: 20px;
-    margin: 50px 100px 50px 100px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    width: auto;
-    height: auto;
+    color: #FF6A3D;
+    text-decoration:none;
 }
 
+.navbar a:visited{
+    display:inline-block;
+    padding:10px;
+    color: #FF6A3D;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    display:inline-block;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+}
+
+.navbar a:active{
+    display:inline-block;
+    padding:10px;
+    color: #FF6A3D;
+    text-decoration:none;
+}
+
+
 .content{
-    color: #F4DB7D;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 40px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
     text-align: center;
     background-color: #1A2238;
     border-style: solid;
@@ -98,20 +143,6 @@ body {
 
 }
 
-a:active{
-    color:black;
-    text-decoration: none;
-}
-
-a:visited{
-    color:black;
-    text-decoration: none;
-}
-
-a:hover{
-    color:orange;
-    text-decoration: none;
-}
 
 /* March 1, 2022* 23:13*/
 
